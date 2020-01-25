@@ -1,0 +1,67 @@
+/* Navigation styles */
+#navBar {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    text-align: center; 
+    flex-direction: row;
+    margin: 0px 5%;
+}
+
+.icon {
+    margin: 5px;
+    width: 10%;
+    float: left;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+}
+
+#navBar h1 {
+    float: left;
+    display: block;
+    width: 25%;
+    justify-content: left;
+    font-family: 'Khula', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    color: #707070;
+}
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navigation a {
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Khula', sans-serif;
+    font-weight: 520;
+    font-size: 22px;
+    color: #707070;
+}
+
+.column1 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #BFD7D9;
+}
+
+.left img {
+    margin-top: 151px;
+    margin-bottom: 76px;
+    margin-left: 110px;
+    margin-right: 76px;
+}
+
+.text h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+}
