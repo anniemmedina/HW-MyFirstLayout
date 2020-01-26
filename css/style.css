@@ -8,8 +8,9 @@
 }
 .icon {
     margin-left: 60px;
-    margin-top: 10px;
-    width: 10%;
+    margin-right: 30px;
+    margin-top: 11px;
+    width: 7%;
     float: left;
     cursor: pointer;
 }
@@ -20,23 +21,27 @@ img {
 #navBar h1 {
     float: left;
     display: block;
-    width: 25%;
+    width: 23%;
     justify-content: left;
     font-family: 'Khula', sans-serif;
     font-weight: 100;
     font-size: 28px;
     color: #707070;
+    margin-right: 80px;
 }
 #navigation {
     display: flex;
-    width: 65%;
+    width: 70%;
     align-items: center;
     justify-content: flex-end;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 80px;
+    margin-right: 53px;
 }
 #navigation a {
-    margin: 25px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-right: 40px;
+    margin-left: 40px;
     text-decoration: none;
     font-family: 'Khula', sans-serif;
     font-weight: 520;
@@ -57,7 +62,7 @@ img {
     font-size: 30px;
     color: #707070;
     margin-left: 150px;
-    margin-right: 260px;
+    margin-right: 100px;
     margin-top: 10px;
     margin-bottom: 200px;
 }
@@ -67,13 +72,13 @@ img {
     font-size: 80px;
     font-weight: 500;
     margin-left: 100px;
-    margin-right: 320px;
+    margin-right: 100px;
     margin-top: 60px;
     margin-bottom: 300px;
 }
 
-/* Column styles */
-.column1 {
+/* Top Section styles */
+.section1 {
     display: flex;
     width: 100%;
     align-items: center;
@@ -94,3 +99,95 @@ img {
     margin-left: 160px;
     margin-right: 0px;
 }
+
+/* Second Section styles */
+
+
+/* Third Section styles */
+.section3 {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    text-align: center; 
+    flex-direction: row;
+    height: 700px;
+    background-color: #BFD7D9;
+}
+.text h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-bottom: -10px;
+    margin-left: 0px;
+    margin-right: 80px;
+}
+.text h4 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Email Contact styles */
+.section4 {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    text-align: center; 
+    flex-direction: row;
+    height: 500px;
+}
+.email h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    margin-left: 81px;
+    margin-right: 0px;
+}
+.email button {
+  justify-content: flex-start;cursor: pointer;
+  font-family: 'Khula', sans-serif;
+  font-size: 23px;
+  color: #707070;
+  text-align: center;
+  padding: 20px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-right: 412px;
+  border-radius: 50px;
+  height: 100px;
+  background-color: white;
+  transition: 0.6s ease;
+}
+  /* Button Active state */
+.email button:hover {
+  background-color: #FFE6E6;
+  transform: scale(1.1);
+}
+
+/* Footer styles */
+.footer {
+    display: flex;
+    width: 100%;
+    position: relative; 
+    text-align: center; 
+    flex-direction: row;
+    height: 200px;
+    background-color: #BFD7D9;
+}
+.footer a {
+    padding: 20px 25px;
+    margin-top: 61px;
+    cursor: pointer;
+}
+.in {
+    margin-left: 60px;
+} 
