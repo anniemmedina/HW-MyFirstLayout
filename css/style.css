@@ -5,20 +5,18 @@
     position: relative; 
     text-align: center; 
     flex-direction: row;
-    margin: 0px 5%;
 }
-
 .icon {
-    margin: 5px;
+    margin-left: 60px;
+    margin-top: 10px;
     width: 10%;
     float: left;
     cursor: pointer;
 }
-
 img {
     cursor: pointer;
 }
-
+/* Navigation Text styles */
 #navBar h1 {
     float: left;
     display: block;
@@ -29,16 +27,16 @@ img {
     font-size: 28px;
     color: #707070;
 }
-
 #navigation {
     display: flex;
-    width: 50%;
+    width: 65%;
     align-items: center;
     justify-content: flex-end;
+    margin-left: 70px;
+    margin-right: 70px;
 }
-
 #navigation a {
-    margin: 15px;
+    margin: 25px;
     text-decoration: none;
     font-family: 'Khula', sans-serif;
     font-weight: 520;
@@ -46,6 +44,35 @@ img {
     color: #707070;
 }
 
+/* Text styles */
+.text h1 {
+    font-family: 'Khula', sans-serif;
+    font-size: 30px;
+    font-weight: 520;
+    margin-left: 150px;
+    margin-right: 0px;
+}
+.text p {
+    font-family: 'Khula', sans-serif;
+    font-size: 30px;
+    color: #707070;
+    margin-left: 150px;
+    margin-right: 260px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+.text h2 {
+    font-family: 'DM Serif Display', serif;
+    line-height: 98px;
+    font-size: 80px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-right: 320px;
+    margin-top: 60px;
+    margin-bottom: 300px;
+}
+
+/* Column styles */
 .column1 {
     display: flex;
     width: 100%;
@@ -53,15 +80,17 @@ img {
     justify-content: flex-start;
     background-color: #BFD7D9;
 }
-
-.left img {
-    margin-top: 151px;
-    margin-bottom: 76px;
-    margin-left: 110px;
-    margin-right: 76px;
+.left {
+    width: 50%
+}
+.right {
+    width: 50%;
 }
 
-.text h1 {
-    font-family: 'EB Garamond', serif;
-    font-size: 50px;
+/* Image styles */
+.left img {
+    margin-top: 171px;
+    margin-bottom: 76px;
+    margin-left: 160px;
+    margin-right: 0px;
 }
