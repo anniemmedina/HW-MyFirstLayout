@@ -132,7 +132,8 @@ img {
 .section3 {
     display: flex;
     width: 100%;
-    justify-content: flex-start;text-align: left; 
+    justify-content: flex-start;
+    text-align: left; 
     height: 700px;
     background-color: #BFD7D9;
 }
