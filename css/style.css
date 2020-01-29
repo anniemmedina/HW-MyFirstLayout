@@ -101,36 +101,69 @@ img {
 }
 
 /* Second Section styles */
-
+.section1 {
+    display: flex;
+    width: 100%;
+}
+.block1 {
+    float: left;
+    display: block;
+    width: 50%;
+    height: 937px;
+    justify-content: left;
+    background-color:#FFE6E6;
+}
+.block1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 700px;
+}
+.block2 {
+    float: right;
+    display: block;
+    width: 50%;
+    justify-content: right;
+}
 
 /* Third Section styles */
 .section3 {
     display: flex;
     width: 100%;
-    position: relative; 
-    text-align: center; 
-    flex-direction: row;
+    justify-content: flex-start;text-align: left; 
     height: 700px;
     background-color: #BFD7D9;
 }
-.text h3 {
+.section3 h3 {
     font-family: 'DM Serif Display', serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 500;
-    margin-top: 90px;
+    margin-top: 110px;
     margin-bottom: -10px;
-    margin-left: 0px;
+    margin-left: 148px;
     margin-right: 80px;
 }
-.text h4 {
+.section3 h4 {
     font-family: 'DM Serif Display', serif;
-    font-size: 70px;
+    font-size: 80px;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 148px;
     margin-right: 0px;
 }
+.list ul {
+    font-family: 'Khula', sans-serif;
+    font-size: 30px;
+    color: #707070;
+    margin-left: 136px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
 
 /* Email Contact styles */
 .section4 {
@@ -147,21 +180,22 @@ img {
     font-weight: 500;
     margin-top: 90px;
     margin-bottom: 0px;
-    margin-left: 81px;
+    margin-left: 145px;
     margin-right: 0px;
 }
 .email button {
-  justify-content: flex-start;cursor: pointer;
+  justify-content: flex-start;
+  cursor: pointer;
   font-family: 'Khula', sans-serif;
   font-size: 23px;
   color: #707070;
   text-align: center;
   padding: 20px;
   width: 350px;
-  margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-right: 412px;
+  margin-left: 50;
+  margin-right: 350px;
   border-radius: 50px;
   height: 100px;
   background-color: white;
@@ -189,5 +223,5 @@ img {
     cursor: pointer;
 }
 .in {
-    margin-left: 60px;
+    margin-left: 125px;
 } 
