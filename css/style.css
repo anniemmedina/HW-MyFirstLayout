@@ -55,32 +55,35 @@ img {
     font-size: 30px;
     font-weight: 520;
     margin-left: 150px;
-    margin-right: 0px;
+    margin-right: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 .text p {
     font-family: 'Khula', sans-serif;
     font-size: 30px;
     color: #707070;
     margin-left: 150px;
-    margin-right: 100px;
-    margin-top: 10px;
-    margin-bottom: 200px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 100px;
 }
 .text h2 {
     font-family: 'DM Serif Display', serif;
-    line-height: 98px;
-    font-size: 80px;
+    line-height: 84px;
+    font-size: 65px;
     font-weight: 500;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 60px;
-    margin-bottom: 300px;
+    margin-left: 0px;
+    margin-right: 150px;
+    margin-top: 300px;
+    margin-bottom: 1000px;
 }
 
 /* Top Section styles */
 .section1 {
     display: flex;
     width: 100%;
+    height: 1400px;
     align-items: center;
     justify-content: flex-start;
     background-color: #BFD7D9;
@@ -94,22 +97,23 @@ img {
 
 /* Image styles */
 .left img {
-    margin-top: 171px;
-    margin-bottom: 76px;
-    margin-left: 160px;
-    margin-right: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* Second Section styles */
-.section1 {
+.section2 {
     display: flex;
     width: 100%;
+    height: 600px;
 }
 .block1 {
     float: left;
     display: block;
-    width: 50%;
-    height: 937px;
+    width: 70%;
+    height: 600px;
     justify-content: left;
     background-color:#FFE6E6;
 }
@@ -118,14 +122,16 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
-    height: 700px;
+    margin-bottom: 200px;
+    height: 400px;
 }
-.block2 {
+.block2 img{
     float: right;
     display: block;
-    width: 50%;
+    width: 100%;
+    height: 600px;
     justify-content: right;
+
 }
 
 /* Third Section styles */
@@ -134,21 +140,21 @@ img {
     width: 100%;
     justify-content: flex-start;
     text-align: left; 
-    height: 700px;
+    height: 500px;
     background-color: #BFD7D9;
 }
 .section3 h3 {
     font-family: 'DM Serif Display', serif;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 500;
-    margin-top: 110px;
+    margin-top: 60px;
     margin-bottom: -10px;
     margin-left: 148px;
     margin-right: 80px;
 }
 .section3 h4 {
     font-family: 'DM Serif Display', serif;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -161,8 +167,8 @@ img {
     color: #707070;
     margin-left: 136px;
     margin-right: 50px;
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -173,36 +179,34 @@ img {
     position: relative; 
     text-align: center; 
     flex-direction: row;
-    height: 500px;
+    height: 340px;
 }
 .email h1 {
     font-family: 'DM Serif Display', serif;
-    font-size: 70px;
+    font-size: 55px;
     font-weight: 500;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 0px;
     margin-left: 145px;
     margin-right: 0px;
 }
 .email button {
-  justify-content: flex-start;
   cursor: pointer;
   font-family: 'Khula', sans-serif;
-  font-size: 23px;
+  font-size: 21px;
   color: #707070;
-  text-align: center;
   padding: 20px;
-  width: 350px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-left: 50;
-  margin-right: 350px;
+  width: 250px;
+  height: 70px;
+  margin-left: 100;
+  margin-right: -100px;
+  margin-top: 50px;
+  margin-bottom: 85px;
   border-radius: 50px;
-  height: 100px;
   background-color: white;
   transition: 0.6s ease;
 }
-  /* Button Active state */
+/* Button Active state */
 .email button:hover {
   background-color: #FFE6E6;
   transform: scale(1.1);
