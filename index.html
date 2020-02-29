@@ -1,78 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/index.css">
   <title>About</title>
   <link href="https://fonts.googleapis.com/css?family=Khula:300,400,600,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet" type="text/css">    
+
+  
 </head>
 
 <body>
-    <!-- Navigation Layout -->
- <nav id="navBar">
-      <div class="icon"> 
-        <a href="https://anniemmedina.github.io/homework_17/#" class="inst">
-        <img src="images/logoB.png">
-        </a>
-       </div> 
-    <h1>ANNIE M. MEDINA</h1>
-    <div id="navigation">
-       <a href="https://anniemmedina.github.io/homework_17/#">Portfolio</a>
-       <a href="#">About</a>
-       <a href="https://lacreature.wordpress.com">Blog</a>
-       <a href="#">Contact Me</a>  
-    </div>
- </nav>
+      <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="https://anniemmedina.github.io/18-Bootstrap-Portfolio/#">A. M. Medina</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <!-- Top Section Layout -->
-  <div class="section1">
-    <div class="left">
-        <img src="images/me.png">
-      <div class="text">
-        <h1>About Me.</h1>
-        <p>A California native; Annie was forged by the tempestuous  waters of an East Coast art education at RISD. She has an absurd love of: tiny “Kauai” things, thought-provoking books & her Ewok-dog named Honeybean. What was being a printmaker at Gemini G.E.L. like? Maybe she will tell you someday. For now, she is giving her standard  110%, to the tantalizing ether of UCI’s UX/UI bootcamp & loving it.</p>
-       </div>
-     </div>
-      <div class="right">
-       <div class="text">
-        <h2>It is always the right time to make the most of your best ideas.</h2>
-       </div>
-    </div>
-  </div>
+  <!-- Navigation bar collapse -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="h">Work</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://anniemmedina.github.io/HW-MyFirstLayout/">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="h">Resume</a>
+    </li>
+  </nav>
 
-<!-- Second Section Layout -->
-<div class="section2">
-    <div class="block1">
-        <img src="images/WLogo.png">
+<!-- About Me -->
+<div class="container2" id="about">
+  <div class="row">
+     <div class="about col-sm-12 col-md-12 col-lg-6 col-xl-7">
+      <h1>About me.</h1>
+      <p>A California native; I was forged by the tempestuous waters of an East Coast art education at RISD. I have an absurd love of: tiny “Kawaii” things, thought-provoking books & my Ewok-dog named Honeybean. What was being a printmaker for 7 years at Gemini G.E.L. like? Maybe I will tell you someday. All I can admit for now is that I have an undying passion for art, design and psychology and love teaching these topics to my adult students. I am currently giving my standard  110%, to growing as an artist and designer through UCI’s UX/UI bootcamp & loving it.</p>
     </div>
-    <div class="block2">
-        <img src="images/me2.png">
-    </div>
-</div>
-
-<!-- Third Section Layout -->
-<div class= "section3">
-  <div class= "list">
-    <h3>Annie</h3>
-    <h4>Medina</h4>
-      <ul>      
-      <li>Adobe Suite, MS, Visual Studio, HTML, CSS, InVision
-      </li>
-      <li>Printmaking, Illustration, Creative Writing, Bookbinding 
-      </li>
-      <li>Adult Instruction of; Computer Skills, Art, Design & Mental Health
-      </li>
-    </ul>
+    <div class="me col-sm-12 col-md-12 col-lg-6 col-xl-5"><img src="images/me2.png">
   </div>
 </div>
+</div>
+
+<!-- Skills -->
+  <div class="container3">
+    <h1>Skills</h1>
+    <ul>      
+    <li>Adobe Suite, MS, Visual Studio, HTML, CSS, InVision
+    </li>
+    <li>Printmaking, Illustration, Creative Writing, Bookbinding 
+    </li>
+    <li>Adult Instruction; Art, Graphic Design, Mental Health, Pre-Vocational Computer & Soft Skills</li>
+  </ul>
+</div>
+
 
 <!-- Email Contact Layout -->
-<div class= "section4">
-  <div class= "email">
-    <h1>anniemmedina@gmail.com</h1>
-        <button>Tell me about it</button>
-  </div>
+<!-- Contact Me -->
+<div class="contact">
+  <form>
+    <h2>anniemmedina@gmail.com</h2>
+    <div class="form-group">
+      <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h4 class="modal-title w-100 font-weight-bold">I'd love to hear from you!</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <div class="md-form mb-5">
+              <i class="fas fa-user prefix grey-text"></i>
+              <input type="text" id="form34" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="form34">Name</label>
+            </div>
+    
+            <div class="md-form mb-5">
+              <i class="fas fa-envelope prefix grey-text"></i>
+              <input type="email" id="form29" class="form-control validate">
+              <label data-error="wrong" data-success="right" for="form29">Email Address</label>
+            </div>
+    
+    
+            <div class="md-form">
+              <i class="fas fa-pencil prefix grey-text"></i>
+              <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+              <label data-error="wrong" data-success="right" for="form8">Message</label>
+            </div>
+    
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center">
+      <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Contact Me</a>
+    </div>
+  </form>
 </div>
+</div>
+
 
 <!-- Footer HTML -->
 <div class="footer">
@@ -90,6 +127,11 @@
     </a>
 </div>
 
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html> 
