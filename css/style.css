@@ -1,3 +1,46 @@
+
+/* Jumbotron styles */
+.jumbotron {
+  background-color: #BFD7D9;
+  height: 710px;
+}
+.info {
+  padding-left: 15px;
+  padding-right: 10%;
+}
+p.lead {
+  padding-top: 4px;
+  padding-bottom: 5px;
+  font-size: 90px;
+}
+.info p {
+  font-size: 20px;
+  word-wrap: break-word;
+  padding-left: 0%;
+  margin: 0%;
+}
+.info h1 {
+  width: 80%;
+  word-wrap: break-word;
+  padding-left: 0%;
+  padding-right: 10px;
+  margin: 0%;
+}
+.info button {
+  float: right;
+}
+
+.pic img {
+  display: flex;
+  justify-items: flex-end;
+  width: 65%;
+  padding: 10px;
+  margin-right: 10%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 /* Navigation styles */
 .navbar-nav {
     margin-left: auto;
